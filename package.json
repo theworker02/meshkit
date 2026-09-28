@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meshkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mesh config/kit key checks for twelve-factor services.",
+  "bin": {
+    "meshkit": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meshkit.git"
+  },
+  "homepage": "https://theworker02.github.io/meshkit/",
+  "keywords": [
+    "mesh",
+    "kit",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
